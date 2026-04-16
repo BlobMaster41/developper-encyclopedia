@@ -221,6 +221,12 @@ Consumed one Medium article or one Hacker News comment thread and has restructur
 Their code works perfectly in production and fails inexplicably in every other environment. Staging: broken. Local development: broken. The CI environment: broken. The QA environment: broken. Production, the actual live system handling real users and real money: flawless. Nobody can explain this. They have stopped trying to explain it. Management has quietly removed the QA sign-off requirement for their releases because it was creating bottlenecks and production was never actually the problem. The other developers find this deeply unsettling. The laws of deterministic computation appear to apply differently to this person. Their commits go in, come out working in production, and will never be understood by anyone, including them.
 
 
+
+### 75. The Zero Attention Span Project Hopper
+
+Has started 47 projects this year. It is March. Each one was going to be "the one." Each one was abandoned between 40% and 70% completion, which is the cruelest range because it is far enough to have invested real time and not far enough to ship anything. Their GitHub is a museum of ambition: repos with enthusiastic READMEs describing a fully featured product, a `src/` folder with a promising directory structure, and a commit history that goes silent after 2 weeks. The pattern is always the same. Day 1: euphoria, the idea is perfect, the architecture is clear, they cannot type fast enough. Day 3: productive, momentum is building, telling friends about the project. Day 7: slowing down, the boring parts have arrived, the initial dopamine has worn off. Day 10: a new idea appears. It is shinier. It is better. The current project has problems that the new idea does not have, because the new idea does not exist yet and therefore has no problems. Day 11: new repo created. The old project joins the museum. They are aware of this pattern. They have named it. They have joked about it. They have tried accountability partners, public commitments, Pomodoro timers, and blocking their own GitHub access after 9pm. Nothing works because the problem is not discipline, the problem is that the beginning of a project is a drug and the middle of a project is a job, and their brain is wired exclusively for the drug. They will build the first 60% of everything and the last 40% of nothing. Somewhere in their graveyard of abandoned repos is an idea that would have been genuinely great if they had finished it. They will never know which one. Nobody will.
+
+
 ---
 
 ## Tier E: The Specialists
@@ -264,6 +270,12 @@ Lives at the intersection of software engineering and operations and carries the
 ### 54. The Firmware Engineer
 
 Writes code that runs on devices with no operating system, no filesystem, no memory manager, no standard library, and sometimes no way to show you what went wrong except blinking an LED in a pattern you have to decode manually. Has implemented their own printf because the standard one was 14KB and the available flash was 8KB. Has debugged a timing issue by attaching an oscilloscope to a pin and watching the rise time on a signal. When their code fails, the failure mode is not a stack trace. The failure mode is silence: a device that was working that is now not working, for reasons visible only to someone willing to read voltage levels off a hardware pin and reason backward from physics to software. This is their normal. They are good at it.
+
+
+
+### 76. The Furry Dev
+
+Has a fursuit in their closet and a commit streak longer than your entire career. This is not a contradiction. This is actually the most statistically predictable combination in open source. Disproportionately represented in systems programming, Linux kernel contributions, networking infrastructure, compiler toolchains, and security tooling. Their avatar on every platform is a hand-commissioned anthropomorphic wolf or fox drawn by an artist they found on a platform you have never heard of, and the commission cost more than your monitor. Their code is immaculate. Their test coverage is exhaustive. Their documentation includes diagrams that are clearer than anything the "professional" developers on the team have ever produced. They contribute to projects that run critical infrastructure for organizations that would be extremely uncomfortable knowing the person maintaining their TLS library is wearing cat ears at their desk right now. The code does not care. The code has never cared. The code runs, the tests pass, the deployments succeed, and the fursuit stays in the closet during business hours unless it is a Friday and the webcam is off. Has contributed more to the infrastructure you depend on daily than most "normal" developers will in their entire career. Nobody talks about this publicly. Everybody in open source knows. The intersection of furry fandom and elite systems programming is one of the most well-documented and least-discussed phenomena in the entire industry.
 
 
 ---
